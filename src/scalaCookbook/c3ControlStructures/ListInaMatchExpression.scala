@@ -21,9 +21,9 @@ object ListInaMatchExpression extends App {
     case n :: rest => n + sum(rest)
   }
 
-  def multiply(list: List[Double]) = list match {
+  def multiply(list: List[Double]): Double = list match {
     case Nil => 1
-    case n :: rest => x * multiply(rest)
+    case n :: rest => n * multiply(rest)
   }
 
   val fruits = "Apples" :: "Bannanas" :: "Oranges" :: Nil

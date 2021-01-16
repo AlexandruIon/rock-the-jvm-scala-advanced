@@ -1,7 +1,6 @@
 package scalaCookbook.c3ControlStructures
 
-import java.io.{FileInputStream, FileNotFoundException, FileOutputStream}
-import scala.sys.process.processInternal.IOException
+import java.io.{FileInputStream, FileNotFoundException, FileOutputStream, IOException}
 
 object MatchingExceptionsWithTryCatch extends App {
 
